@@ -1,0 +1,17 @@
+name: 'My Custom Action'
+description: 'Say hello'
+author: 'Dries de Kort'
+
+branding:
+  icon: 'activity'
+  color: 'green'
+
+inputs:
+  name:
+    description: 'the name of the person to greet'
+    required: true
+    default: 'world'
+
+runs: 
+  using: 'node16'
+  main: 'dist/index.js'

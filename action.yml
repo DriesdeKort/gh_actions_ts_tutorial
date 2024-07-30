@@ -7,10 +7,11 @@ branding:
   color: 'green'
 
 inputs:
-  name:
-    description: 'the name of the person to greet'
+  gh-token:
+    description: 'the GitHub token for authentication'
+  label:
+    description: 'the label to be applied to the pull request'
     required: true
-   # default: 'world'
 
 runs: 
   using: 'node16'

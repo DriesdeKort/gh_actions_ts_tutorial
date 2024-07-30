@@ -10,7 +10,7 @@ inputs:
   name:
     description: 'the name of the person to greet'
     required: true
-    default: 'world'
+   # default: 'world'
 
 runs: 
   using: 'node16'

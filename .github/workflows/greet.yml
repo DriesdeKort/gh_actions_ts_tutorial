@@ -5,9 +5,11 @@ on:
 
 
 jobs:
-    run-my-action:
-        name: checks if this action works
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v3
-            - uses: ./
+  run-my-action:
+    name: checks if this action works
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./
+        with: 
+          name: 'Driesie'
